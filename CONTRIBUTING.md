@@ -48,6 +48,7 @@ checks that the tag, package version and changelog agree, builds the plugin,
 and creates a GitHub release from that version's changelog section. It attaches
 a built npm-format archive and its SHA-256 checksum; it does not publish to npm.
 Never move an existing release tag. Ship a new version for a correction.
+The workflow can also be run manually against an existing immutable tag.
 
 The BB Community entry tracks `^0.1.0`. A new marketplace pull request is needed
 for a source, metadata or tracking-range change. Marketplace maintainers review
