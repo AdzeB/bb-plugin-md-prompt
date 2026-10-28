@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Plugin loads in a real BB composer",
+    "status": "passed"
+  },
+  {
+    "name": "Typing styles Markdown without changing its characters",
+    "status": "passed"
+  },
+  {
+    "name": "Multiline paste and an unfinished fence highlight immediately",
+    "status": "passed"
+  },
+  {
+    "name": "Toggle removes painting immediately and preserves the draft",
+    "status": "passed"
+  },
+  {
+    "name": "Saved mode survives a page reload",
+    "status": "passed"
+  },
+  {
+    "name": "CLI setting change repaints an open draft",
+    "status": "passed"
+  },
+  {
+    "name": "Programming prose remains plain",
+    "status": "passed"
+  },
+  {
+    "name": "Oversized drafts stay editable and unpainted",
+    "status": "passed"
+  },
+  {
+    "name": "Compact composer retains its Markdown menu",
+    "status": "passed"
+  },
+  {
+    "name": "Nested Markdown styles and code colour layers survive overlap",
+    "status": "passed"
+  },
+  {
+    "name": "Invalid CLI and RPC input leave the saved mode intact",
+    "status": "passed"
+  },
+  {
+    "name": "Plugin reload preserves text and does not duplicate controls",
+    "status": "passed"
+  },
+  {
+    "name": "Plugin disable removes painting and enable restores the same draft",
+    "status": "passed"
+  },
+  {
+    "name": "No plugin browser exceptions",
+    "status": "passed"
+  },
+  {
+    "name": "Public screenshots contain only the composer",
+    "status": "passed"
+  }
+]

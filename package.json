@@ -1,0 +1,87 @@
+{
+  "name": "bb-plugin-md-prompt",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "bb": ">=0.47",
+    "bbPluginSdk": ">=0.6.79 <0.7.0"
+  },
+  "bb": {
+    "name": "MD Prompt",
+    "description": "Paint Markdown and syntax-highlight code as you type, without changing your prompt.",
+    "branding": {
+      "icon": "./icons/markdown.svg"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx",
+    "skills": [
+      "skills"
+    ]
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.6.79",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "bb-app": "0.47.1",
+    "hono": "^4.13.14",
+    "playwright": "^1.56.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sonner": "^1.7.4",
+    "typescript": "^5.7.0"
+  },
+  "description": "Live Markdown and syntax highlighting in BB prompts, powered by md-prompt.",
+  "license": "MIT",
+  "author": {
+    "name": "Adebola",
+    "url": "https://github.com/AdzeB"
+  },
+  "scripts": {
+    "build": "bb plugin build",
+    "typecheck": "tsc --noEmit",
+    "verify:e2e": "node scripts/verify-e2e.mjs",
+    "check": "npm run typecheck && node scripts/release-notes.mjs --check"
+  },
+  "files": [
+    "server.ts",
+    "app.tsx",
+    "paint.ts",
+    "vendor/",
+    "skills/",
+    "dist/server.js",
+    "dist/server.meta.json",
+    "dist/app.js",
+    "dist/app.css",
+    "dist/app.meta.json",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "scripts/",
+    "docs/",
+    "tsconfig.json",
+    "PLUGIN_OVERVIEW.md",
+    "CHANGELOG.md",
+    "icons/",
+    "CONTRIBUTING.md"
+  ],
+  "homepage": "https://github.com/AdzeB/bb-plugin-md-prompt#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdzeB/bb-plugin-md-prompt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdzeB/bb-plugin-md-prompt/issues"
+  },
+  "keywords": [
+    "bb",
+    "bb-plugin",
+    "markdown",
+    "syntax-highlighting",
+    "composer"
+  ]
+}

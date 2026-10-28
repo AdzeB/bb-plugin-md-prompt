@@ -1,0 +1,7 @@
+node_modules/
+dist/
+artifacts/
+.DS_Store
+*.tgz
+release-assets/
+release-notes.md
